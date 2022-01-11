@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const PORT = process.env.PORT || 3000;
 
 
 //middleware
@@ -36,8 +37,8 @@ mongoose.connect(process.env.CONNECTION_STRING)
 
 
 
-app.listen(3000, ()=>{
+app.listen(PORT, ()=>{
     console.log(api);
-    console.log('server is running http://localhost:3000'); 
+    console.log('server is running http://localhost:'+ PORT); 
 
 })
