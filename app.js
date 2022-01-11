@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const PORT = process.env.PORT || 3333;
+const PORT = process.env.PORT || 8000;
 
 
 //middleware

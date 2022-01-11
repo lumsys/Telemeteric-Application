@@ -1,1 +1,1 @@
-web:node router/telemetric.js
+web:node app.js
