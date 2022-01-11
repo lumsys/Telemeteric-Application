@@ -34,9 +34,6 @@ mongoose.connect(process.env.CONNECTION_STRING)
     console.log(err);
 })
 
-
-
-
 app.listen(PORT, ()=>{
     console.log(api);
     console.log('server is running http://localhost:'+ PORT); 
