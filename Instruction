@@ -1,0 +1,13 @@
+# nodejs-crud-operation
+Below is the instructions to be followed when setting the application up on local
+
+1. Clone the project reporsitory to your local system
+2. Start the application using npm start
+3. The database resides in mongodb server so just allow the application to run normally
+4. The application base local route is "localhost/api/v1/telemetric" and the endpoints are:
+/create for creating data, 
+/view for getting, 
+/id for updating data, 
+/id for deleting data.
+
+
